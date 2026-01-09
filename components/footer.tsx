@@ -29,10 +29,9 @@ export function Footer() {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
-            <Link href="/" className="flex items-center gap-2 mb-6">
-              <Building2 className="h-8 w-8 text-primary" />
-              <span className="text-xl font-bold text-foreground">Prestige Realty</span>
-            </Link>
+            <Link href="/" className="flex items-center gap-2">
+            <img src="/logo.png" alt="logo" />
+          </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Your trusted partner in premium commercial real estate. We deliver strategic property solutions for
               businesses seeking growth and investors looking for profitable opportunities.
